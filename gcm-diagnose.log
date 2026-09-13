@@ -1,0 +1,207 @@
+﻿Diagnose log at 2026-09-13T17:00:28Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.7.3+5fa7116896c82164996a609accd1c5ad90fe730a
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 19045)
+Reading environment variables... OK
+ Variables:
+SESSIONNAME=Console
+ProgramFiles(x86)=C:\Program Files (x86)
+MSYSTEM=MINGW64
+ProgramW6432=C:\Program Files
+ChocolateyInstall=C:\ProgramData\chocolatey
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+TMP=C:\Users\robso\AppData\Local\Temp
+PROCESSOR_ARCHITECTURE=AMD64
+VSCODE_GIT_ASKPASS_MAIN=c:\Users\robso\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\70789581cae28aa7\askpass-main.js
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\robso\bin;c:\Users\robso\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\robso\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Python314\Scripts\;C:\Python314\;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Users\robso\.local\bin;C:\Users\robso\AppData\Local\Microsoft\WindowsApps;C:\Users\robso\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\robso\AppData\Roaming\npm;C:\Users\robso\AppData\Local\Programs\Ollama;C:\Users\robso\AppData\Local\GitHubDesktop\bin;c:\Users\robso\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\scripts\noConfigScripts
+USERPROFILE=C:\Users\robso
+VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-202f3d1997-sock
+PROCESSOR_REVISION=3a09
+TEMP=C:\Users\robso\AppData\Local\Temp
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+LOGONSERVER=\\DESKTOP-RFNTECN
+TERM=xterm-256color
+PYDEVD_DISABLE_FILE_VALIDATION=1
+USERNAME=robso
+SystemRoot=C:\Windows
+VSCODE_DEBUGPY_ADAPTER_ENDPOINTS=c:\Users\robso\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\.noConfigDebugAdapterEndpoints\endpoint-7d7a8fdc4758f31c.txt
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_19228_GLWDQMMADXCFPHWI
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+PLINK_PROTOCOL=ssh
+GIT_PAGER=cat
+OneDrive=C:\Users\robso\OneDrive
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-RFNTECN
+CommonProgramFiles=C:\Program Files\Common Files
+VSCODE_INJECTION=1
+VSCODE_PYTHON_AUTOACTIVATE_GUARD=1
+ProgramData=C:\ProgramData
+LANG=pt_BR.UTF-8
+AI_AGENT=github_copilot_vscode_agent
+HOMEPATH=\Users\robso
+OneDriveConsumer=C:\Users\robso\OneDrive
+COMPUTERNAME=DESKTOP-RFNTECN
+PYTHONSTARTUP=c:\Users\robso\AppData\Roaming\Code\User\workspaceStorage\537bac3a3dde64202270d815a5dd4391\ms-python.python\pythonrc.py
+ALLUSERSPROFILE=C:\ProgramData
+CommonProgramW6432=C:\Program Files\Common Files
+COPILOT_DEBUG_NONCE=de77c37c33a25930ba34f92f31c8c488
+DEBIAN_FRONTEND=noninteractive
+COPILOT_AGENT=1
+DriverData=C:\Windows\System32\Drivers\DriverData
+HOMEDRIVE=C:
+GIT_ASKPASS=c:\Users\robso\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\70789581cae28aa7\askpass.sh
+windir=C:\Windows
+GIT_TRACE2_PARENT_SID=64f012fc-23f5-49a9-953c-f123dfd94e3b
+SystemDrive=C:
+NUMBER_OF_PROCESSORS=8
+OS=Windows_NT
+GIT_MERGE_AUTOEDIT=no
+ProgramFiles=C:\Program Files
+ComSpec=C:\Windows\system32\cmd.exe
+GIT_EDITOR=:
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.CPL
+HOME=C:\Users\robso
+PSModulePath=C:\Users\robso\OneDrive\Documentos\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+TMPDIR=C:\Users\robso\AppData\Local\Temp
+APPDATA=C:\Users\robso\AppData\Roaming
+USERDOMAIN=DESKTOP-RFNTECN
+PROCESSOR_LEVEL=6
+LOCALAPPDATA=C:\Users\robso\AppData\Local
+ChocolateyLastPathUpdate=134239585818412236
+VSCODE_GIT_ASKPASS_NODE=C:\Users\robso\AppData\Local\Programs\Microsoft VS Code\Code.exe
+BUNDLED_DEBUGPY_PATH=c:\Users\robso\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\libs\debugpy
+TERM_PROGRAM_VERSION=1.137.0
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+COLORTERM=truecolor
+PUBLIC=C:\Users\Public
+TERM_PROGRAM=vscode
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\robso\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\robso\AppData\Local\Temp\020a41c8882802a6037addd8'... OK
+Reading from temporary file 'C:\Users\robso\AppData\Local\Temp\020a41c8882802a6037addd8'... OK
+Deleting temporary file 'C:\Users\robso\AppData\Local\Temp\020a41c8882802a6037addd8'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\robso
+UserDataDirectoryPath: C:\Users\robso\.gcm
+GetCurrentDirectory(): C:\Users\robso\OneDrive\Documentos\GitHub\joy-write-shine\FiberOps_SGP-isp
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:57381/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.54.0.windows.1'
+Locating current repository...Git repository at 'C:/Users/robso/OneDrive/Documentos/GitHub/joy-write-shine/FiberOps_SGP-isp/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=schannel
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/robso/.gitconfig	safe.directory=C:/
+file:C:/Users/robso/.gitconfig	safe.directory=D:/sgp-isp-pro
+file:C:/Users/robso/.gitconfig	user.email=robsonferreyra2022@outlook.com.br
+file:C:/Users/robso/.gitconfig	user.name=RFNTecnologia
+file:C:/Users/robso/.gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Users/robso/.gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Users/robso/.gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Users/robso/.gitconfig	filter.lfs.required=true
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	submodule.active=.
+file:.git/config	remote.origin.url=https://github.com/RFNTecnologia/FiberOps_SGP-isp.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config	branch.main.remote=origin
+file:.git/config	branch.main.merge=refs/heads/main
+file:.git/config	lfs.repositoryformatversion=0
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\robso\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\robso\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
