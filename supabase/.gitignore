@@ -1,0 +1,4 @@
+# Supabase local cache
+.env
+.env.local
+*.log
