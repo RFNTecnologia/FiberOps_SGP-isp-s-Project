@@ -14,24 +14,24 @@ values
 on conflict do nothing;
 
 insert into public.services (customer_id, plan_id, service_number, status, contract_start, contract_end, activation_date, address_line, city, state, zip_code)
-select c.id, p.id, 'SRV-1001', 'active', '2026-01-15', '2027-01-15', '2026-01-20', c.address_line, c.city, c.state, c.zip_code
+select c.id, p.id, 'SRV-1001', 'active', date '2026-01-15', date '2027-01-15', date '2026-01-20', c.address_line, c.city, c.state, c.zip_code
 from public.customers c
 join public.plans p on p.name = 'Fibra 100'
 where c.email = 'maria.silva@email.com'
 union all
-select c.id, p.id, 'SRV-1002', 'active', '2026-02-10', '2027-02-10', '2026-02-15', c.address_line, c.city, c.state, c.zip_code
+select c.id, p.id, 'SRV-1002', 'active', date '2026-02-10', date '2027-02-10', date '2026-02-15', c.address_line, c.city, c.state, c.zip_code
 from public.customers c
 join public.plans p on p.name = 'Fibra 300'
 where c.email = 'joao.pereira@email.com'
 on conflict (service_number) do nothing;
 
 insert into public.invoices (customer_id, service_id, invoice_number, issue_date, due_date, total_amount, status)
-select c.id, s.id, 'INV-2026-0001', '2026-09-01', '2026-09-15', 89.90, 'pending'
+select c.id, s.id, 'INV-2026-0001', date '2026-09-01', date '2026-09-15', 89.90, 'pending'
 from public.customers c
 join public.services s on s.service_number = 'SRV-1001'
 where c.email = 'maria.silva@email.com'
 union all
-select c.id, s.id, 'INV-2026-0002', '2026-09-01', '2026-09-15', 129.90, 'pending'
+select c.id, s.id, 'INV-2026-0002', date '2026-09-01', date '2026-09-15', 129.90, 'pending'
 from public.customers c
 join public.services s on s.service_number = 'SRV-1002'
 where c.email = 'joao.pereira@email.com'
