@@ -1,4 +1,5 @@
 # Supabase local cache
+.temp/
 .env
 .env.local
 *.log
