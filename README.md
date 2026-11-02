@@ -1,29 +1,29 @@
-# Welcome to your Lovable project
+# FiberOps SGP ISP
 
-This project was built with [Lovable](https://lovable.dev).
+Aplicação de operação de rede FTTH/ISP, construída com TanStack Start, React e TypeScript. O projeto também pode ser editado pelo [Lovable](https://lovable.dev).
 
-## Build with Lovable
+## Desenvolvimento local
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Requer Node.js e Bun.
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
+```bash
+bun install
+bun run dev
 ```
 
-## Built with
+Para gerar a versão de produção:
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+```bash
+bun run build
+```
+
+## Supabase
+
+As migrations do banco ficam em `supabase/migrations`. Configure as variáveis locais copiando `.env.example` para `.env`; esse arquivo não deve ser enviado ao Git. A chave `SUPABASE_SERVICE_ROLE_KEY` é exclusiva do servidor e nunca deve ser exposta no navegador.
+
+Antes de aplicar migrations, confira se o projeto selecionado é o correto:
+
+```bash
+supabase link --project-ref <project-ref>
+supabase db push
+```
