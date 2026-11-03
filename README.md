@@ -17,6 +17,19 @@ Para gerar a versão de produção:
 bun run build
 ```
 
+## Executar com Docker
+
+Crie o arquivo local de variáveis e inicie a aplicação:
+
+```powershell
+Copy-Item .env.example .env
+docker compose up --build -d
+```
+
+Acesse `http://localhost:3000`. Para parar os containers, execute `docker compose down`.
+
+As variáveis `VITE_SUPABASE_URL`, `VITE_SUPABASE_PUBLISHABLE_KEY` e `VITE_GOOGLE_MAPS_API_KEY` são usadas durante o build; refaça o build com `docker compose up --build` ao alterá-las. As demais variáveis do `.env` são fornecidas ao servidor em tempo de execução. Não inclua chaves secretas em variáveis `VITE_*`.
+
 ## Supabase
 
 As migrations do banco ficam em `supabase/migrations`. Configure as variáveis locais copiando `.env.example` para `.env`; esse arquivo não deve ser enviado ao Git. A chave `SUPABASE_SERVICE_ROLE_KEY` é exclusiva do servidor e nunca deve ser exposta no navegador.

@@ -1,0 +1,8 @@
+.git
+.env
+.env.*
+node_modules
+.output
+.tanstack
+.vercel
+.wrangler
