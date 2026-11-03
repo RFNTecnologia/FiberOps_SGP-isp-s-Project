@@ -27,3 +27,13 @@ Antes de aplicar migrations, confira se o projeto selecionado é o correto:
 supabase link --project-ref <project-ref>
 supabase db push
 ```
+
+## Deploy no Vercel pelo GitHub
+
+O workflow `.github/workflows/deploy.yml` publica a branch `main` no Vercel e também pode ser iniciado manualmente. Configure estes GitHub Actions Secrets no repositório:
+
+- `VERCEL_TOKEN`
+- `VERCEL_ORG_ID`
+- `VERCEL_PROJECT_ID`
+
+Configure no projeto Vercel as variáveis `VITE_SUPABASE_URL` e `VITE_SUPABASE_PUBLISHABLE_KEY` para os ambientes Production e Preview que utilizar. Se alguma operação do servidor usar o cliente administrativo, configure também `SUPABASE_URL` e `SUPABASE_SERVICE_ROLE_KEY` no Vercel; nunca coloque a service role key em variáveis `VITE_*` ou no GitHub.
