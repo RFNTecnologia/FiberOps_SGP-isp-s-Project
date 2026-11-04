@@ -4,17 +4,17 @@ Aplicação de operação de rede FTTH/ISP, construída com TanStack Start, Reac
 
 ## Desenvolvimento local
 
-Requer Node.js e Bun.
+Requer Node.js 20.19+ (ou 22.12+).
 
 ```bash
-bun install
-bun run dev
+npm install
+npm run dev
 ```
 
 Para gerar a versão de produção:
 
 ```bash
-bun run build
+npm run build
 ```
 
 ## Executar com Docker

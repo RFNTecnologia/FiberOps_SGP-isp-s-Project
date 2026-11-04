@@ -1,9 +1,9 @@
-FROM oven/bun:1 AS build
+FROM node:22-bookworm-slim AS build
 
 WORKDIR /app
 
-COPY package.json bun.lock bunfig.toml ./
-RUN bun install --frozen-lockfile
+COPY package.json ./
+RUN npm install --no-audit --no-fund
 
 COPY . .
 
@@ -17,7 +17,7 @@ ENV VITE_SUPABASE_URL=$VITE_SUPABASE_URL
 ENV VITE_SUPABASE_PUBLISHABLE_KEY=$VITE_SUPABASE_PUBLISHABLE_KEY
 ENV VITE_GOOGLE_MAPS_API_KEY=$VITE_GOOGLE_MAPS_API_KEY
 
-RUN bun run build
+RUN npm run build
 
 FROM node:22-bookworm-slim AS runtime
 
